@@ -9,6 +9,6 @@ import br.com.logistica.rest.bean.PassoBean;
 public interface IAbastecimentoDAO {
 	
 	public void salvarCarga(CargaBean cargaBean) throws LogisticaException;
-	public List<PassoBean> consultarInstrucoes(Long idEntrega, Long idCaminhao);
+	public List<PassoBean> consultarInstrucoes(Long idEntrega, Long idCaminhao) throws LogisticaException;
 
 }
